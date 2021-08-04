@@ -12,6 +12,27 @@ html, body {
   font-family: 'Inter', sans-serif;
 }
 
+h2 {
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+ul > li {
+  padding: 5px 70px;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .header {
   height: 500px;
   width: 850px;
@@ -51,11 +72,38 @@ html, body {
   background-color: #4299FF;
 }
 
+.about-content {
+  padding-top: 70px;
+  padding-left: 145px;
+  display: flex;
+}
+
+.about-content > h2 {
+  padding-right: 50px;
+  border-right: 1px solid white;
+}
+
+.about-content > p {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .work {
   height: 370px;
   width: 850px;
   margin: auto;
   background-color: #3288ED;
+}
+
+.work-content {
+  padding-top: 70px;
+  padding-left: 70px;
+  display: flex;
+}
+
+.work-content > h2 {
+  padding-right: 50px;
+  border-right: 1px solid white;
 }
 
 .contact {
