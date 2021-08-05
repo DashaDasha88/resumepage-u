@@ -119,15 +119,18 @@ ul > li::before {
   display: flex;
 }
 
-.social-media {
-  padding-left: 70px;
+.all-social {
   display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
 }
 
-.social-media > p {
+.social {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
   border: 1px solid white;
   margin: 5px;
-  padding: 10px;
-  border-radius: 6px;
-  flex-wrap: wrap;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
